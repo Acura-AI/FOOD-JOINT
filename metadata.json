@@ -1,0 +1,6 @@
+{
+  "name": "FOOD JOINT - Guwahati",
+  "description": "Authentic, budget-friendly local Indian and Assamese food joint in Bhangagarh, Guwahati near Nemcare Hospital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

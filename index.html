@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOOD JOINT - Delicious Local Food in Bhangagarh, Guwahati</title>
+    <meta name="description" content="Budget-friendly local Indian & Assamese food near Nemcare Hospital, Bhangagarh, Guwahati. Fresh thalis, hot rolls, chowmein & homestyle curries." />
+    <meta property="og:title" content="FOOD JOINT - Delicious Local Food in Bhangagarh, Guwahati" />
+    <meta property="og:description" content="Budget-friendly local Indian & Assamese food near Nemcare Hospital, Bhangagarh, Guwahati. Fresh thalis, hot rolls, chowmein & homestyle curries." />
+    <meta property="og:type" content="restaurant.restaurant" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Top Information Bar -->
+    <div class="top-bar" id="topBar">
+      <div class="container">
+        <div class="top-bar-left">
+          <span class="status-indicator live-hours-status">
+            <span class="status-dot"></span> Open Now (9:00 AM – 9:00 PM)
+          </span>
+          <span class="top-bar-location">📍 Bhangagarh, Near Nemcare Hospital, Guwahati</span>
+        </div>
+        <div class="top-bar-right">
+          <span>Google Rating: <strong>★ 4.1</strong> (22 reviews)</span>
+          <a href="tel:08753945816" class="top-bar-phone" id="topBarPhone">
+            📞 087539 45816
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a href="#home" class="brand" id="brandLogo">
+          <span class="brand-title">FOOD JOINT</span>
+          <span class="brand-assamese">ফুড জয়েণ্ট • BHANGAGARH</span>
+          <span class="brand-subtitle">Guwahati, Assam</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="#home" id="navHome">Home</a></li>
+            <li><a href="#about" id="navAbout">About</a></li>
+            <li><a href="#menu" id="navMenu">Menu & Prices</a></li>
+            <li><a href="#menuCards" id="navMenuCards">Menu Cards</a></li>
+            <li><a href="#gallery" id="navGallery">Gallery</a></li>
+            <li><a href="#contact" id="navContact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Call CTA & Mobile Toggle -->
+        <div class="header-actions">
+          <a href="tel:08753945816" class="btn btn-primary btn-sm" id="headerCallBtn">
+            <span aria-hidden="true">📞</span> Call Now
+          </a>
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Nav Drawer & Overlay -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+    <aside class="mobile-nav" id="mobileNav" aria-label="Mobile Navigation">
+      <div class="mobile-nav-header">
+        <div>
+          <strong style="color: var(--primary); font-size: 1.2rem;">FOOD JOINT</strong>
+          <div style="font-size: 0.8rem; color: var(--earth-brown);">ফুড জয়েণ্ট • Guwahati</div>
+        </div>
+        <button class="close-menu-btn" id="closeMenuBtn" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Us</a></li>
+        <li><a href="#menu" class="mobile-nav-link">Menu & Prices</a></li>
+        <li><a href="#menuCards" class="mobile-nav-link">Printed Menu Cards</a></li>
+        <li><a href="#gallery" class="mobile-nav-link">Photo Gallery</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Address & Contact</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a href="tel:08753945816" class="btn btn-primary">📞 Call 087539 45816</a>
+        <a href="https://wa.me/918753945816?text=Hi%20Food%20Joint,%20I%20would%20like%20to%20order" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 Order on WhatsApp</a>
+      </div>
+    </aside>
+
+    <!-- 1. Hero Section with Real Storefront Image -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tagline">Budget-Friendly Local Eatery</span>
+          <h1 class="hero-title">Delicious local food in Bhangagarh</h1>
+          <p class="hero-subtitle">
+            Freshly prepared hot thalis, Kolkata & Assamese style rolls, chowmein, fried rice, and hearty curries. Serving hospital staff, patient attendants, students, and locals every day with honest taste and pocket-friendly prices.
+          </p>
+
+          <div class="hero-badges">
+            <div class="hero-badge-item">
+              <span>💰</span> <strong>₹1–200</strong> per person
+            </div>
+            <div class="hero-badge-item">
+              <span>⭐</span> <strong>4.1 Stars</strong> on Google (22 reviews)
+            </div>
+            <div class="hero-badge-item">
+              <span>🕒</span> <strong>9:00 AM – 9:00 PM</strong> daily
+            </div>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#menu" class="btn btn-primary" id="heroViewMenuBtn">
+              View Menu & Prices
+            </a>
+            <a href="tel:08753945816" class="btn btn-outline" id="heroCallBtn">
+              📞 Call: 087539 45816
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <span class="section-eyebrow">About Food Joint</span>
+            <h2 class="section-title">Fresh, hot food without the fuss</h2>
+            <p>
+              Food Joint is located right in the heart of Bhangagarh on G.S. Road—situated near Nemcare Hospital and opposite Angelika Higher Secondary School. We started with one straightforward goal: serve hot, filling, and tasty meals to people who need good food at honest prices.
+            </p>
+            <p>
+              A lot of our regulars are doctors, nurses, hospital staff, families visiting loved ones at Nemcare, and students from nearby institutes. When you're busy or worried, you don't need fancy tablecloths or inflated prices—you need a clean steel plate with piping hot rice, homestyle dal, fresh sabji, or a quick roll made fresh right in front of you.
+            </p>
+            <div class="about-highlight-box">
+              <strong>Local Note:</strong> Most full meals cost between ₹70 to ₹190. You can dine in at our clean counter seating or take quick parcel packages for hospital wards and offices.
+            </div>
+            <p>
+              Everything is cooked fresh daily in our open kitchen. From our ₹70 Veg Thali to our popular Egg Chicken Rolls and hot chowmein noodles, we keep things simple, hygienic, and affordable.
+            </p>
+
+            <div class="about-features">
+              <div class="feature-card">
+                <div class="feature-icon">🏥</div>
+                <div class="feature-info">
+                  <h4>Near Hospital</h4>
+                  <p>1-minute walk from Nemcare Hospital. Quick takeaway parcels.</p>
+                </div>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon">🪙</div>
+                <div class="feature-info">
+                  <h4>Pocket Friendly</h4>
+                  <p>Full thalis from ₹70. Quality meals under ₹150–200.</p>
+                </div>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon">🍳</div>
+                <div class="feature-info">
+                  <h4>Cooked Fresh</h4>
+                  <p>Hot rotis, rolls, and curries prepared right upon order.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real Storefront Photo Card -->
+          <div class="about-store-card" id="aboutStoreCard">
+            <img src="images/storefront.jpg" alt="Food Joint restaurant storefront in Bhangagarh Guwahati" class="store-card-img" />
+            <div class="store-card-body">
+              <h3 class="store-card-title">Food Joint (ফুড জয়েণ্ট)</h3>
+              <div class="store-card-meta">
+                <div>📍 Opposite Angelika Higher Secondary School</div>
+                <div>🏥 Near Nemcare Hospital, G.S. Road, Bhangagarh</div>
+                <div>⏰ Open 7 Days: 9:00 AM – 9:00 PM</div>
+                <div>🛵 Dine-in • Takeaway • Counter Pickup</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Printed Menu Cards (From User's Original Menu Sheets) -->
+    <section class="section" id="menuCards" style="background-color: #231815; color: #fff;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" style="color: var(--accent-gold);">Original Menu</span>
+          <h2 class="section-title" style="color: #fff;">Our Official Printed Menu Cards</h2>
+          <p class="section-desc" style="color: #d7ccc8;">
+            Direct photos of the laminated menu cards at our counter. Click any sheet to view in full resolution!
+          </p>
+        </div>
+
+        <div class="gallery-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+          <!-- Menu Card 1: Indian Curries & Noodles -->
+          <div class="gallery-card" role="button" aria-label="View Indian Curries and Noodles Menu Card" style="aspect-ratio: 3 / 4;">
+            <img src="images/menu_card1.jpg" alt="Food Joint Menu - Indian Curries & Noodles" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Menu Card: Indian Curries & Noodles</span>
+              <span class="gallery-zoom-hint">🔍 Tap to enlarge card</span>
+            </div>
+          </div>
+
+          <!-- Menu Card 2: Rice & Rolls -->
+          <div class="gallery-card" role="button" aria-label="View Rice and Rolls Menu Card" style="aspect-ratio: 3 / 4;">
+            <img src="images/menu_card2.jpg" alt="Food Joint Menu - Fast Food Rice & Rolls" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Menu Card: Fast Food Rice & Rolls</span>
+              <span class="gallery-zoom-hint">🔍 Tap to enlarge card</span>
+            </div>
+          </div>
+
+          <!-- Menu Card 3: Chinese, Thali & Parathas -->
+          <div class="gallery-card" role="button" aria-label="View Chinese, Thali and Parathas Menu Card" style="aspect-ratio: 3 / 4;">
+            <img src="images/menu_card3.jpg" alt="Food Joint Menu - Chinese, Thali & Roti/Paratha" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Menu Card: Chinese, Thali & Roti/Paratha</span>
+              <span class="gallery-zoom-hint">🔍 Tap to enlarge card</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Digital Menu Section with Exact Items & Prices -->
+    <section class="section section-bg-alt" id="menu">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Full Rate List</span>
+          <h2 class="section-title">Explore All Categories & Items</h2>
+          <p class="section-desc">
+            All prices from our in-store rate cards. Freshly made to order, hygienic and hot.
+          </p>
+        </div>
+
+        <!-- Menu Filter Controls -->
+        <div class="menu-controls" id="menuControls">
+          <button class="menu-tab-btn active" data-category="all" id="filterAll">All Items</button>
+          <button class="menu-tab-btn" data-category="thali" id="filterThali">Thali Meals</button>
+          <button class="menu-tab-btn" data-category="rolls" id="filterRolls">Rolls & Wraps</button>
+          <button class="menu-tab-btn" data-category="noodles" id="filterNoodles">Noodles / Chowmein</button>
+          <button class="menu-tab-btn" data-category="rice" id="filterRice">Fried Rice & Biryani</button>
+          <button class="menu-tab-btn" data-category="indian" id="filterIndian">Indian Curries</button>
+          <button class="menu-tab-btn" data-category="roti" id="filterRoti">Roti / Paratha</button>
+          <button class="menu-tab-btn" data-category="chinese" id="filterChinese">Chinese Starters</button>
+        </div>
+
+        <div class="menu-content" id="menuContent">
+          <!-- Category: Thali -->
+          <div class="menu-category-block" data-category="thali" id="catThali">
+            <div class="category-header">
+              <h3 class="category-title">🍱 Thali Meals</h3>
+              <span class="category-time">Full wholesome meal plates with rice & accompaniments</span>
+            </div>
+            <div class="menu-grid">
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Veg Thali</div>
+                  <div class="menu-item-desc">Steamed rice, homestyle dal, dry sabji, seasonal mixed veg curry, lemon, chili & pickle.</div>
+                </div>
+                <div class="menu-item-price">₹70</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-egg"></span> Omelette Thali</div>
+                  <div class="menu-item-desc">Full thali served with fluffy double-egg masala omelette.</div>
+                </div>
+                <div class="menu-item-price">₹90</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-egg"></span> Egg Curry Thali</div>
+                  <div class="menu-item-desc">Full thali served with eggs simmered in spiced onion-tomato gravy.</div>
+                </div>
+                <div class="menu-item-price">₹100</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Paneer Thali</div>
+                  <div class="menu-item-desc">Soft fresh paneer cooked in savory curry with full thali accompaniments.</div>
+                </div>
+                <div class="menu-item-price">₹130</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chicken Thali</div>
+                  <div class="menu-item-desc">Homestyle chicken curry with tender cuts and complete rice thali. Top seller.</div>
+                </div>
+                <div class="menu-item-price">₹130</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Fish Thali (Assam Rohu)</div>
+                  <div class="menu-item-desc">Freshly fried fish in light ginger-mustard Assamese jhol with rice and dal.</div>
+                </div>
+                <div class="menu-item-price">₹130</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Local Chicken Thali</div>
+                  <div class="menu-item-desc">Traditional native Assamese local chicken curry slow-cooked to perfection.</div>
+                </div>
+                <div class="menu-item-price">₹190</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Mutton Thali</div>
+                  <div class="menu-item-desc">Rich spiced tender mutton curry served with full thali plate.</div>
+                </div>
+                <div class="menu-item-price">₹190</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category: Rolls -->
+          <div class="menu-category-block" data-category="rolls" id="catRolls">
+            <div class="category-header">
+              <h3 class="category-title">🌯 Rolls</h3>
+              <span class="category-time">Crisp tawa paratha rolls with onions, green chilies & sauce</span>
+            </div>
+            <div class="menu-grid">
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Veg Roll</div>
+                  <div class="menu-item-desc">Crispy rolled paratha with spiced cabbage, carrots, onion & green chutney.</div>
+                </div>
+                <div class="menu-item-price">₹50</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-egg"></span> Egg Roll</div>
+                  <div class="menu-item-desc">Paratha pan-fried with fresh egg layer, crunchy onions and tangy spices.</div>
+                </div>
+                <div class="menu-item-price">₹60</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chicken Roll</div>
+                  <div class="menu-item-desc">Loaded with juicy spiced roasted chicken chunks and onion rings.</div>
+                </div>
+                <div class="menu-item-price">₹80</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Veg Cheese Roll</div>
+                  <div class="menu-item-desc">Stuffed with seasoned veggies and melted cheese slice.</div>
+                </div>
+                <div class="menu-item-price">₹80</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Paneer Roll</div>
+                  <div class="menu-item-desc">Marinated soft paneer sautéed on tawa, wrapped with sauces.</div>
+                </div>
+                <div class="menu-item-price">₹100</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chicken Cheese Roll</div>
+                  <div class="menu-item-desc">Spiced chicken chunks topped with rich melted cheese.</div>
+                </div>
+                <div class="menu-item-price">₹110</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Super Roll</div>
+                  <div class="menu-item-desc">Extra loaded with double egg, double chicken chunks and chef's special spice mix.</div>
+                </div>
+                <div class="menu-item-price">₹120</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Spring Rolls (Veg / Paneer / Egg / Chicken)</div>
+                  <div class="menu-item-desc">Crispy golden deep-fried spring rolls with spicy dipping sauce.</div>
+                </div>
+                <div class="menu-item-price">₹70 – ₹140</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category: Noodles -->
+          <div class="menu-category-block" data-category="noodles" id="catNoodles">
+            <div class="category-header">
+              <h3 class="category-title">🍜 Noodles</h3>
+              <span class="category-time">Wok-tossed street style noodles & gravy chowmein</span>
+            </div>
+            <div class="menu-grid">
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Veg Noodles</div>
+                  <div class="menu-item-desc">Wok-tossed noodles with shredded cabbage, carrots, bell peppers & soya sauce.</div>
+                </div>
+                <div class="menu-item-price">₹70</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-egg"></span> Egg Noodles</div>
+                  <div class="menu-item-desc">Stir-fried noodles with scrambled egg, fresh vegetables and spices.</div>
+                </div>
+                <div class="menu-item-price">₹80</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chicken Noodles</div>
+                  <div class="menu-item-desc">Desi Chinese style noodles tossed with tender shredded chicken.</div>
+                </div>
+                <div class="menu-item-price">₹90</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Paneer Noodles / Mix Noodles</div>
+                  <div class="menu-item-desc">Topped with fresh paneer cubes or loaded with egg, chicken and paneer mix.</div>
+                </div>
+                <div class="menu-item-price">₹110</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Schezwan Noodles (Veg / Egg / Chicken)</div>
+                  <div class="menu-item-desc">Fiery stir-fried noodles with in-house garlic Schezwan paste.</div>
+                </div>
+                <div class="menu-item-price">₹80 – ₹110</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Gravy Noodles (Veg / Egg / Chicken / Mix)</div>
+                  <div class="menu-item-desc">Pan-fried crispy or soft noodles smothered in rich savory Chinese gravy.</div>
+                </div>
+                <div class="menu-item-price">₹100 – ₹150</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category: Rice & Biryani -->
+          <div class="menu-category-block" data-category="rice" id="catRice">
+            <div class="category-header">
+              <h3 class="category-title">🍚 Rice (Fast Food) & Biryani</h3>
+              <span class="category-time">Wok-fried rice specialties and aromatic biryanis</span>
+            </div>
+            <div class="menu-grid">
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Veg Fried Rice</div>
+                  <div class="menu-item-desc">Classic Chinese style fried rice with finely diced seasonal veggies.</div>
+                </div>
+                <div class="menu-item-price">₹70</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-egg"></span> Egg Fried Rice</div>
+                  <div class="menu-item-desc">Stir-fried aromatic rice tossed with scrambled egg and mild pepper.</div>
+                </div>
+                <div class="menu-item-price">₹80</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chicken Fried Rice</div>
+                  <div class="menu-item-desc">Wok-tossed long grain rice with spiced chicken pieces and spring onions.</div>
+                </div>
+                <div class="menu-item-price">₹90</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Paneer Fried Rice / Mix Fried Rice</div>
+                  <div class="menu-item-desc">Loaded with golden fried paneer cubes or special multi-meat mixed rice.</div>
+                </div>
+                <div class="menu-item-price">₹110</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chicken Biryani</div>
+                  <div class="menu-item-desc">Fragrant basmati rice layered with juicy marinated chicken and spices.</div>
+                </div>
+                <div class="menu-item-price">₹160</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Mutton Biryani</div>
+                  <div class="menu-item-desc">Slow-simmered rich mutton biryani with aromatic saffron & ghee aroma.</div>
+                </div>
+                <div class="menu-item-price">₹190</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Jeera Rice / Veg Pulao / Chicken Pulao</div>
+                  <div class="menu-item-desc">Fragrant cumin tempered rice or spiced mild pulao.</div>
+                </div>
+                <div class="menu-item-price">₹100 – ₹150</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category: Indian Curries -->
+          <div class="menu-category-block" data-category="indian" id="catIndian">
+            <div class="category-header">
+              <h3 class="category-title">🍲 Indian Curries (Half / Full)</h3>
+              <span class="category-time">Rich homestyle curries cooked fresh in traditional spices</span>
+            </div>
+            <div class="menu-grid">
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-egg"></span> Egg Curry (H / F)</div>
+                  <div class="menu-item-desc">Boiled eggs fried and simmered in onion-tomato-ginger masala gravy.</div>
+                </div>
+                <div class="menu-item-price">₹30 / ₹60</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Paneer Curry (H / F)</div>
+                  <div class="menu-item-desc">Soft paneer cubes cooked in rich spiced butter gravy.</div>
+                </div>
+                <div class="menu-item-price">₹60 / ₹120</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chicken Curry (H / F)</div>
+                  <div class="menu-item-desc">Customer favorite homestyle spiced chicken curry with rich gravy.</div>
+                </div>
+                <div class="menu-item-price">₹60 / ₹120</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Fish Curry (H / F)</div>
+                  <div class="menu-item-desc">Fresh river fish cooked in light, comforting Assamese style gravy.</div>
+                </div>
+                <div class="menu-item-price">₹60 / ₹120</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Local Chicken Curry (H / F)</div>
+                  <div class="menu-item-desc">Authentic Assam local chicken simmered in country-style masala.</div>
+                </div>
+                <div class="menu-item-price">₹120 / ₹240</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Mutton Curry (H / F)</div>
+                  <div class="menu-item-desc">Slow-braised mutton in deep robust spiced red gravy.</div>
+                </div>
+                <div class="menu-item-price">₹120 / ₹240</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Mix Veg</div>
+                  <div class="menu-item-desc">Medley of potatoes, cauliflower, carrots, beans and peas.</div>
+                </div>
+                <div class="menu-item-price">₹140</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category: Roti / Paratha -->
+          <div class="menu-category-block" data-category="roti" id="catRoti">
+            <div class="category-header">
+              <h3 class="category-title">🫓 Roti / Paratha</h3>
+              <span class="category-time">Hot from the tawa and pan</span>
+            </div>
+            <div class="menu-grid">
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Tawa Roti</div>
+                  <div class="menu-item-desc">Freshly roasted whole wheat phulka roti.</div>
+                </div>
+                <div class="menu-item-price">₹40</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Butter Tawa Roti</div>
+                  <div class="menu-item-desc">Soft warm tawa rotis brushed with golden butter.</div>
+                </div>
+                <div class="menu-item-price">₹50</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Plain Paratha</div>
+                  <div class="menu-item-desc">Golden crisp triangle tawa paratha.</div>
+                </div>
+                <div class="menu-item-price">₹40</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Aloo Paratha</div>
+                  <div class="menu-item-desc">Generously stuffed with spiced mashed potato filling.</div>
+                </div>
+                <div class="menu-item-price">₹50</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-egg"></span> Egg Mughlai Paratha</div>
+                  <div class="menu-item-desc">Crispy fried parcel paratha stuffed with beaten egg and herbs.</div>
+                </div>
+                <div class="menu-item-price">₹100</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chicken Mughlai Paratha</div>
+                  <div class="menu-item-desc">Stuffed with seasoned chicken mince and egg, fried golden crisp.</div>
+                </div>
+                <div class="menu-item-price">₹130</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Lachha Paratha</div>
+                  <div class="menu-item-desc">Multi-layered flaky paratha crisped with butter.</div>
+                </div>
+                <div class="menu-item-price">₹60</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category: Chinese & Starters -->
+          <div class="menu-category-block" data-category="chinese" id="catChinese">
+            <div class="category-header">
+              <h3 class="category-title">🥢 Chinese & Starters</h3>
+              <span class="category-time">Sizzling dry fries, chillies & gravies</span>
+            </div>
+            <div class="menu-grid">
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chilli Chicken Boneless</div>
+                  <div class="menu-item-desc">Crispy boneless chicken tossed in hot wok with soya, garlic, green chilies & capsicum.</div>
+                </div>
+                <div class="menu-item-price">₹350</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chilli Chicken (With Bone)</div>
+                  <div class="menu-item-desc">Traditional bone-in chicken pieces stir-fried in zesty chilli gravy.</div>
+                </div>
+                <div class="menu-item-price">₹300</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Paneer Dry Fry / Pyaza Paneer</div>
+                  <div class="menu-item-desc">Cubes of paneer pan-fried with onions, crushed black pepper and green chilies.</div>
+                </div>
+                <div class="menu-item-price">₹180 / ₹200</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-nonveg"></span> Chicken Dry Fry</div>
+                  <div class="menu-item-desc">Crisp seasoned chicken dry fry served with onions and lemon wedge.</div>
+                </div>
+                <div class="menu-item-price">₹250</div>
+              </div>
+              <div class="menu-item-card">
+                <div class="menu-item-left">
+                  <div class="menu-item-name"><span class="diet-dot diet-veg"></span> Dal Tadka (Dal Talka) (F / H)</div>
+                  <div class="menu-item-desc">Flavorful yellow dal tempered with garlic, cumin, ghee and dried red chili.</div>
+                </div>
+                <div class="menu-item-price">₹150 / ₹80</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-note-box">
+          <div>
+            <strong>🥡 Takeaway & Hospital Parcels:</strong> Need food packed for hospital attendants or office staff? Call 15 minutes ahead and we'll keep your parcel hot and ready.
+          </div>
+          <a href="tel:08753945816" class="btn btn-primary btn-sm">Call to Pre-Order</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Photo Gallery Section with Real Storefront & Food -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Visuals & Glimpse</span>
+          <h2 class="section-title">Fresh from Our Kitchen & Counter</h2>
+          <p class="section-desc">Click on any photo to view in full size. Authentic food, prepared clean and served hot.</p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <div class="gallery-card" role="button" aria-label="View Food Joint storefront and counter in Bhangagarh">
+            <img src="images/storefront.jpg" alt="Food Joint restaurant counter and dining in Bhangagarh Guwahati" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Food Joint Storefront & Counter at Night</span>
+              <span class="gallery-zoom-hint">🔍 Tap to enlarge</span>
+            </div>
+          </div>
+
+          <div class="gallery-card" role="button" aria-label="View Assamese Veg Thali">
+            <img src="images/gallery1.jpg" alt="Assamese Veg Thali with rice, dal and curries" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Traditional Veg & Non-Veg Thali</span>
+              <span class="gallery-zoom-hint">🔍 Tap to enlarge</span>
+            </div>
+          </div>
+
+          <div class="gallery-card" role="button" aria-label="View Fresh Egg Chicken Roll">
+            <img src="images/gallery2.jpg" alt="Fresh Egg Chicken Roll wrapped in crispy paratha" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Freshly Wrapped Hot Rolls</span>
+              <span class="gallery-zoom-hint">🔍 Tap to enlarge</span>
+            </div>
+          </div>
+
+          <div class="gallery-card" role="button" aria-label="View Wok-Tossed Chowmein Noodles">
+            <img src="images/gallery3.jpg" alt="Wok-tossed egg chicken chowmein noodles" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Wok-tossed Desi Chowmein</span>
+              <span class="gallery-zoom-hint">🔍 Tap to enlarge</span>
+            </div>
+          </div>
+
+          <div class="gallery-card" role="button" aria-label="View Homestyle Spiced Chicken Curry">
+            <img src="images/gallery4.jpg" alt="Homestyle spiced Indian chicken curry in a steel bowl" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Rich Spiced Chicken Curry</span>
+              <span class="gallery-zoom-hint">🔍 Tap to enlarge</span>
+            </div>
+          </div>
+
+          <div class="gallery-card" role="button" aria-label="View Morning Masala Chai & Aloo Paratha">
+            <img src="images/gallery5.jpg" alt="Steaming Assam masala chai and crispy aloo paratha" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Morning Assam Chai & Hot Paratha</span>
+              <span class="gallery-zoom-hint">🔍 Tap to enlarge</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pure JavaScript Lightbox Modal -->
+    <div class="lightbox" id="lightboxModal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close photo preview">&times;</button>
+        <button class="lightbox-nav-btn lightbox-prev" id="lightboxPrev" aria-label="Previous photo">&#10094;</button>
+        <img src="images/storefront.jpg" alt="Enlarged photo" class="lightbox-img" id="lightboxImg" />
+        <button class="lightbox-nav-btn lightbox-next" id="lightboxNext" aria-label="Next photo">&#10095;</button>
+        <div class="lightbox-caption" id="lightboxCaption">Photo Preview</div>
+      </div>
+    </div>
+
+    <!-- 6. Contact & Location Section -->
+    <section class="section section-bg-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Find & Reach Us</span>
+          <h2 class="section-title">Location & Contact Details</h2>
+          <p class="section-desc">Conveniently situated right in Bhangagarh on G.S. Road. Drop in or call for immediate orders.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Details Card -->
+          <div class="contact-card">
+            <h3 class="contact-card-title">Food Joint Details</h3>
+            
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                  <div class="contact-item-title">Exact Address</div>
+                  <div class="contact-item-detail">
+                    Near NEMCARE HOSPITAL, Opposite ANGELIKA HIGHER SECONDARY SCHOOL, G.S. Road, Bhangagarh, Guwahati, Assam 781005
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div>
+                  <div class="contact-item-title">Phone Numbers (Click to Call)</div>
+                  <div class="contact-item-detail">
+                    <a href="tel:08753945816">087539 45816</a> &nbsp;•&nbsp; 
+                    <a href="tel:8753945816">8753945816</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">⏰</div>
+                <div>
+                  <div class="contact-item-title">Opening Hours</div>
+                  <div class="contact-item-detail">
+                    Monday to Sunday: <strong>9:00 AM – 9:00 PM</strong>
+                    <div style="font-size: 0.85rem; color: #2e7d32; margin-top: 2px;">
+                      Open everyday for breakfast, lunch, snacks, and dinner.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">💳</div>
+                <div>
+                  <div class="contact-item-title">Payment Methods</div>
+                  <div class="contact-item-detail">
+                    UPI (Google Pay, PhonePe, Paytm, BHIM) & Cash accepted at counter.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-actions">
+              <a href="tel:08753945816" class="btn btn-primary" id="contactCallBtn">
+                📞 Call 087539 45816
+              </a>
+              <a href="https://wa.me/918753945816?text=Hello%20Food%20Joint,%20I%20would%20like%20to%20place%20an%20order" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="contactWhatsAppBtn">
+                💬 WhatsApp Chat / Order
+              </a>
+            </div>
+          </div>
+
+          <!-- Embedded Google Map -->
+          <div class="map-card" id="mapCard">
+            <iframe
+              class="map-wrapper"
+              title="Food Joint Location Map near Nemcare Hospital Guwahati"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.5641793740294!2d91.76865217596045!3d26.15392817710959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5960bf977e23%3A0x6b63d76b1f237efb!2sNemcare%20Hospital!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+            <div class="map-footer">
+              <span>🏥 Landmark: Directly near <strong>Nemcare Hospital & Angelika School</strong></span>
+              <a href="https://maps.google.com/?q=Nemcare+Hospital+Bhangagarh+Guwahati" target="_blank" rel="noopener noreferrer" style="color: var(--primary); font-weight: 600;">
+                Open in Google Maps &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Footer -->
+    <footer class="site-footer" id="siteFooter">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <h3>FOOD JOINT <span class="assamese">ফুড জয়েণ্ট</span></h3>
+            <p>
+              Homestyle local food in Bhangagarh, Guwahati. Wholesome Assamese and Indian meals, thalis, quick rolls, and hot chai for hospital visitors, workers, students, and neighborhood families.
+            </p>
+          </div>
+          <div class="footer-nav">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#menu">Menu & Rates</a></li>
+              <li><a href="#menuCards">Menu Cards</a></li>
+              <li><a href="#gallery">Kitchen Gallery</a></li>
+              <li><a href="#contact">Contact & Map</a></li>
+            </ul>
+          </div>
+          <div class="footer-timing">
+            <h4>Timings & Orders</h4>
+            <p>Open daily from <strong>9:00 AM to 9:00 PM</strong>.</p>
+            <p style="margin-top: 0.5rem;">For parcels & counter pickup, call: <a href="tel:08753945816" style="color: var(--accent-gold); font-weight: 700;">087539 45816</a></p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>&copy; 2026 FOOD JOINT, Bhangagarh, Guwahati. All rights reserved.</div>
+          <div class="footer-designer">Designed by <span>[Your Name]</span></div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mobile Sticky Quick Contact Bar -->
+    <div class="mobile-sticky-bar" id="mobileStickyBar">
+      <a href="tel:08753945816" class="btn btn-primary">
+        📞 Call Now
+      </a>
+      <a href="https://wa.me/918753945816?text=Hello%20Food%20Joint,%20I%20would%20like%20to%20order" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+        💬 WhatsApp
+      </a>
+      <a href="#menu" class="btn btn-accent">
+        📋 Menu
+      </a>
+    </div>
+
+    <!-- Vanilla JavaScript -->
+    <script src="./script.js"></script>
+  </body>
+</html>
